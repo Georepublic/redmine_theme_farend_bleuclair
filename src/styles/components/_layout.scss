@@ -1,4 +1,4 @@
-$color-top-menu-bg: #223342;
+$color-top-menu-bg: #393D3D;
 $color-main-bg:     #fafcfe;
 $color-border-sidebar-switch-button: #ddd;
 
@@ -10,7 +10,7 @@ $color-border-sidebar-switch-button: #ddd;
 }
 
 #header {
-  background: radial-gradient(circle at 1.98% 20.98%, #29333a, transparent 100%), radial-gradient(circle at 98.02% 20.98%, #2e4063, transparent 100%), radial-gradient(circle at 50% 50%, #19c8b5, #19c8b5 100%);
+  background: radial-gradient(circle at 1.98% 20.98%, #F1515C, transparent 100%), radial-gradient(circle at 98.02% 20.98%, #F1515C, transparent 100%), radial-gradient(circle at 50% 50%, #393D3D, #393D3D 100%);
   padding: 10px 30px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   color: white;
@@ -18,9 +18,18 @@ $color-border-sidebar-switch-button: #ddd;
 
   h1 {
     padding-bottom: 20px;
-    padding-left: 190px;
+    padding-left: 60px;
     background: url(../images/logo.svg) no-repeat 0 7px;
     color: white;
+  }
+
+  #project-jump .drdn-trigger,
+  #quick-search #q {
+    height: 30px;
+  }
+
+  #project-jump .drdn-content {
+    top: 31px;
   }
 }
 
