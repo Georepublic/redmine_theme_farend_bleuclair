@@ -16,6 +16,14 @@ $(document).ajaxSuccess(function() {
 });
 
 $(function(){
+  // LOBSTA customization
+  if (($("a.help").text() == "ヘルプ" ? "ja" : $("html").attr("lang")) == "ja") {
+    $('#footer').prepend('<a href="https://www.lobsta.jp">LOBSTA</a> Manager - ');
+  }
+  else {
+    $('#footer').prepend('<a href="https://www.lobsta.org">LOBSTA</a> Manager - ');
+  }
+
   /* Change to open external link in another tab */
   $("a.external").attr("target","_blank");
   $("a.help").attr("target","_blank");
