@@ -41,9 +41,6 @@ $checkbox-margin: 7px 2px 7px 0px;
     height: auto;
     line-height: 1.3;
 
-    font-family: "Osaka-Mono", "MS Gothic", sans-serif;
-    font-size: 100%;
-
     &:hover {
       border: 1px solid darken($color-input-border, 10%);
     }
@@ -110,6 +107,7 @@ $checkbox-margin: 7px 2px 7px 0px;
   }
 
   textarea.wiki-edit {
+    font-size: 13px;
     font-family: "Osaka-Mono", "MS Gothic", sans-serif;
     letter-spacing: normal;
     line-height: 130%;
@@ -166,7 +164,6 @@ $checkbox-margin: 7px 2px 7px 0px;
   }
 
   input[type="submit"] {
-    font-size: 100%;
     border-radius: 3px;
     padding: 2px 12px 3px;
     color: $color-submit-text;
@@ -184,7 +181,6 @@ $checkbox-margin: 7px 2px 7px 0px;
   }
 
   input[type="button"] {
-    font-size: 100%;
     border-radius: 3px;
     padding: 2px 12px 3px;
     color: $color-button-text;
