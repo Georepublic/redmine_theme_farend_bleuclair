@@ -1,0 +1,37 @@
+// quick custom overrides
+#project-jump .drdn-trigger {
+  height: 28px;
+}
+
+#quick-search #q {
+  height: 28px;
+}
+
+.drdn-content {
+  top: 29px;
+}
+
+#main-menu ul li a.selected:after, #main-menu ul li a:hover:after {
+  background-color: $icon-color;
+}
+
+.nodata, .warning {
+  background-color: $color-light-bg;
+  color: $default-heading-font-color;
+}
+
+#header {
+  min-height: 6em;
+
+  h1 {
+    padding-bottom: 20px;
+    padding-left: 70px;
+    background: url(images/logo.svg) no-repeat 0 7px;
+    background-size: 54px;
+    color: white;
+  }
+}
+
+.edit_issue fieldset {
+  background-color: $color-issue-bg;
+}

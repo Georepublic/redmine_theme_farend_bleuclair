@@ -10,7 +10,7 @@ $color-border-sidebar-switch-button: #ddd;
 }
 
 #header {
-  background: radial-gradient(circle at 1.98% 20.98%, #F1515C, transparent 100%), radial-gradient(circle at 98.02% 20.98%, #F1515C, transparent 100%), radial-gradient(circle at 50% 50%, #393D3D, #393D3D 100%);
+  background: $color-header-gradient-1, $color-header-gradient-2, $color-header-gradient-3;
   padding: 10px 30px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   color: white;

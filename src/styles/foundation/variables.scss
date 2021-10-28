@@ -1,5 +1,5 @@
 $default-heading-font-color: #333;
-$color-issue-bg: #fff9c4;
+$color-issue-bg: #fff;
 $color-header-bg: #e9eaf1;
 
 // icon
@@ -19,3 +19,14 @@ $color-priority-highest : #C62828;
 
 // status
 $color-closed           : #777777;
+
+// header colors
+$color-header-gradient-1: radial-gradient(circle at 1.98% 20.98%, #F1515C, transparent 100%);
+$color-header-gradient-2: radial-gradient(circle at 98.02% 20.98%, #F1515C, transparent 100%);
+$color-header-gradient-3: radial-gradient(circle at 50% 50%, #393D3D, #393D3D 100%);
+
+// default font size
+$default-font-size: 15px;
+
+// Others
+$color-light-bg: #eeeeee;
