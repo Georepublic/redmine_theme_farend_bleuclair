@@ -30,33 +30,3 @@ $default-font-size: 15px;
 
 // Others
 $color-light-bg: #eeeeee;
-
-// Icons
-#admin-menu a.gtt-tile-sources:before { /* fa-layer-group */ @include fontAwesome('f5fd', 'Solid');}
-#admin-menu a.text-blocks:before { /* fa-receipt */ @include fontAwesome('f543', 'Solid');}
-
-#admin-menu a.gtt-tile-sources,
-#admin-menu a.text-blocks {
-  background-image: none !important;
-  padding-left: 0px !important;
-
-  &:before {
-    padding-right: 2px;
-    width: 17px;
-    text-align: center;
-  }
-  &.icon-only {
-    text-decoration: none;
-    background-position: initial;
-    background-repeat: initial;
-    display: inline-block;
-    width: auto;
-    height: auto;
-    overflow: initial;
-    padding-top: initial;
-    padding-bottom: initial;
-    vertical-align: initial;
-    font-size: 0;
-    white-space: nowrap;
-  }
-}
