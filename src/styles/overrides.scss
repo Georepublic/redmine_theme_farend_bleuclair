@@ -35,3 +35,12 @@
 .edit_issue fieldset {
   background-color: $color-issue-bg;
 }
+
+// TBD: use $issue-padding variable (didn't work)
+div.issue {
+  padding: 10px 0;
+}
+
+div.box.filedroplistner {
+  padding: inherit;
+}
